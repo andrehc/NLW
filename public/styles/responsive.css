@@ -1,0 +1,200 @@
+@media (max-width: 640px) {
+  #page-home header {
+    margin: 40px 0;
+    display: flow-root;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #page-home header a {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin: 40px 0 40px;
+  }
+  #page-home header a span {
+    margin-right: 16px;
+    display: flex;
+    background-image: url(../assets/log-in.svg);
+    width: 28px;
+    height: 20px;
+  }
+  #page-home .content {
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flow-root;
+    /* flex-direction: column; */
+  }
+  #page-home main h1 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+  #page-home main p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 60px;
+  }
+  #page-home main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    margin-top: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    transition: 400ms;
+  }
+  #modal form label {
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: center;
+  }
+  #modal .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 48px;
+    /* text-align: center; */
+  }
+  #page-create-point {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #page-create-point header {
+    margin-top: 48px;
+    display: flow-root;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  #page-create-point header a {
+    margin-top: 48px;
+    color: var(--title-color);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #page-create-point header a span {
+    margin-right: 16px;
+    background-image: url(/assets/arrow-left.svg);
+    display: flow-root;
+    width: 20px;
+    height: 24px;
+  }
+  form {
+    /*background-color: white;*/
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 730px;
+    align-items: center;
+    justify-content: center;
+  }
+  form legend {
+    margin-bottom: 40px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  form legend h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  form legend {
+    margin-bottom: 40px;
+    display: flow-root;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .items-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  #page-search-results header {
+    margin: 40px 0;
+    display: flow-root;
+    justify-content: space-between;
+    text-align: center;
+  }
+  #page-search-results header a {
+    margin-top: 40px;
+    color: var(--title-color);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main h4 {
+    font-weight: normal;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  main .cards {
+    /* margin-top: 40px; */
+    display: flow-root;
+    /* grid-template-columns: 1fr; */
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+  }
+  main .card p {
+    margin: 24px 0 40px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6c80;
+  }
+}
+
+@media (max-width: 900px) {
+  #page-home {
+    background-position-x: 70vw;
+  }
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+  #page-home header a {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #page-home main {
+    align-items: center;
+  }
+  #page-search-results .cards img {
+    height: 200px;
+  }
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+  #page-create-point .field-group .field+.field {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1700px) {
+  #page-home {
+    background-position-x: 40vw;
+  }
+}
+
+@media (max-heiht: 760px) {
+  #page-home {
+    background-position-y: 200px;
+  }
+}
+
+@media (max-width: 2560px) {}

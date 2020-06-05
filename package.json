@@ -1,0 +1,27 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "Projeto Ecoleta  Empresa ou prefeituras podem entrar na plataforma cadastrar seu ponto de coleta em uma cidade, especificando o tipo de resíduo. O cidadão pode entrar no site e pesquisar um ponto de coleta mais próximo.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrehc/NLW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrehc/NLW/issues"
+  },
+  "homepage": "https://github.com/andrehc/NLW#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
